@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:latest
 
-FROM python:3.12.8-alpine3.21
+FROM python:3.13.1-alpine3.21
 ARG TARGETARCH
 
 LABEL maintainer='f69m'
